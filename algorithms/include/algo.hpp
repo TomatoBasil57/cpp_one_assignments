@@ -2,53 +2,48 @@
 #define ALGO_H_
 
 #include "types.hpp"
-#include <iostream>
-#include <string>
 
-long fibonacci(const int n)
+inline long fibonacci(const int n)
 {
-    std::cout << n << std::endl;
-    if(n == 0 || n == 1)
+    int nth_term = 0, nth_minus_1 = 1, nth_minus_2 = 0;
+
+    if (n == 0) {return 0;}
+    if (n == 1) {return 1;}
+
+    for (int i = 2; i <= n; i++)
     {
-        return n;
+        nth_term = nth_minus_2 + nth_minus_1;
+        nth_minus_2 = nth_minus_1;
+        nth_minus_1 = nth_term;
     }
-    return fibonacci(n - 1) + fibonacci(n - 2);
+
+    return nth_term;
 }
 
-int linear_search(Array * a, const int target)
+inline long linear_search(Array const *a, const int target)
 {
-    for(size_t i = 0; i < a->len; i++)
+    for (unsigned int i = 0; i < a->len; i++)
     {
-        if(a->data[i] == target)
+        if (a->data[i] == target)
         {
             return i;
         }
     }
+
     return -1;
 }
 
-long factorial(const int n)
+inline long factorial(const int n)
 {
-    if(n == 0)
-        return 1;
-    else{
-        return n * factorial(n - 1);
+    int nth_term = 1; // 0! = 1
+
+    for (int i = 1; i <= n; i++)
+    {
+        nth_term *= i;
     }
+
+    return nth_term;
 }
 
-std::string fizz_buzz_checker(const int n) {
-    if (n % 15 == 0) {
-        return "fizzbuzz";
-    }
-    else if (n % 5 == 0)
-    {
-        return "buzz";
-    }
-    else if (n % 3 == 0)
-    {
-        return "fizz";
-    }
-    return "";
-}
 
 #endif // ALGO_H_

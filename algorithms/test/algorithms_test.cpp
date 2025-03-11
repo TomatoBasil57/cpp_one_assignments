@@ -30,9 +30,10 @@ TEST(FACTORIAL_TEST, BasicAssertions) {
     long result = factorial(5);
     EXPECT_EQ(result, 120);
 }
-
+/*
 TEST(FIZZBUZZ_TEST, BasicAssertions) { 
     const int n = 3;
     std::string result = fizz_buzz_checker(n);
     EXPECT_EQ(result, "fizz");
 }
+*/
