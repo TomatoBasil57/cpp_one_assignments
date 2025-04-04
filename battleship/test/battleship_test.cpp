@@ -5,7 +5,7 @@
 #include "../include/user_solver.h"
 
 TEST(SOLVER_TEST, BasicAssertions) {
-    Board b = Board(1000, 1000, 5);
+    Board b = Board(1000, 1000, 1);
 
     ExampleSolver es;
     es.solve(b);

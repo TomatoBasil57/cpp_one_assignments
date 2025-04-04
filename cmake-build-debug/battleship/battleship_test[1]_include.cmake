@@ -1,0 +1,5 @@
+if(EXISTS "/Users/snead/documents/cpp_one_assignments/cmake-build-debug/battleship/battleship_test[1]_tests.cmake")
+  include("/Users/snead/documents/cpp_one_assignments/cmake-build-debug/battleship/battleship_test[1]_tests.cmake")
+else()
+  add_test(battleship_test_NOT_BUILT battleship_test_NOT_BUILT)
+endif()

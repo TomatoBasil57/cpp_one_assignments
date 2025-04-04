@@ -1,0 +1,21 @@
+# ninja log v6
+0	12	1741727957437367162	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	1acd9aba6467c44a
+577	588	1741727958012519363	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	750440f2995c0f51
+13	530	1741727957954619828	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	8cdda20e5ebc59dc
+599	615	1741727958039665787	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	2d9428a8e6f5cd3a
+530	542	1741727957966480509	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	b37500efcd14009f
+13	530	1741727957954619828	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	8cdda20e5ebc59dc
+577	588	1741727958012519363	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	750440f2995c0f51
+0	12	1741727957437367162	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	1acd9aba6467c44a
+542	553	1741727957978062399	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	bd41319158fbdb82
+553	565	1741727957989690122	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	cd720ed17b23f5a2
+599	615	1741727958039665787	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	2d9428a8e6f5cd3a
+542	553	1741727957978062399	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	bd41319158fbdb82
+530	542	1741727957966480509	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	b37500efcd14009f
+553	565	1741727957989690122	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	cd720ed17b23f5a2
+565	577	1741727958001495594	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	591094b5bbf07bbe
+565	577	1741727958001495594	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	591094b5bbf07bbe
+599	615	1741727958039665787	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	2d9428a8e6f5cd3a
+588	599	1741727958023642048	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	cb57a5faaf82ebd
+588	599	1741727958023642048	/Users/snead/Documents/cpp_one_assignments/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	cb57a5faaf82ebd
+599	615	1741727958039665787	CMakeFiles/googletest-populate-complete	2d9428a8e6f5cd3a
